@@ -12,6 +12,8 @@ link_directories(${OSG_DIR}/lib)
 add_executable(${PROJECT_NAME} main.cpp)
 add_executable(${PROJECT_NAME} osg2cpp.cpp)
 add_executable(${PROJECT_NAME} OsgAnalysis.cpp)
+add_executable(${PROJECT_NAME} OsgKeyBoardMouse.cpp)
+
 add_executable(${PROJECT_NAME} stadfx.h)
 
 add_executable(${PROJECT_NAME} WordCoordinate.h)
